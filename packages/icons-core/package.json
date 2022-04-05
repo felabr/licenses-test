@@ -1,0 +1,31 @@
+{
+  "name": "@test/icons-core",
+  "version": "63.27.2",
+  "description": "SVG icons",
+  "license": "UNLICENSED",
+  "files": [
+    "dist",
+    "dist-es"
+  ],
+  "main": "dist/index.js",
+  "module": "dist-es/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@trysound/sax": "^0.2.0",
+    "async": "^3.1.0",
+    "chokidar": "^3.0.2",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.4",
+    "minimist": "^1.2.0",
+    "svgo": "^2.3.0",
+    "typescript": "3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "sideEffects": false
+}

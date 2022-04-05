@@ -1,0 +1,19 @@
+{
+	"problems.decorations.enabled": false,
+	"search.exclude": {
+		"**/dist/**": true,
+		"**/lerna-debug.log": true,
+		"**/node_modules/**": true,
+		"**/npm-debug.log": true,
+		"**/package-lock.json": true
+	},
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"editor.formatOnSave": true,
+	"workbench.colorCustomizations": {},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	]
+}

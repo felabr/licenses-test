@@ -1,0 +1,63 @@
+{
+  "name": "@test/root",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "licenses-list": "yarn licenses list --json"
+  },
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "styled-components": "4.4.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-angular": "^16.0.0",
+    "@commitlint/config-lerna-scopes": "^16.0.0",
+    "@lerna-lite/cli": "^1.0.3",
+    "@lerna-lite/run": "^1.0.3",
+    "@size-limit/preset-small-lib": "^7.0.5",
+    "@storybook/addon-docs": "^6.4.19",
+    "@types/jest": "^27.0.0",
+    "@types/node": "16.x.x",
+    "@types/react": "16.x.x",
+    "@types/react-dom": "16.x.x",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.20.4",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-unicorn": "^41.0.0",
+    "glob": "^7.1.7",
+    "jest": "^27.0.6",
+    "jest-sonar-reporter": "^2.0.0",
+    "npm-run-all": "^4.1.3",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2",
+    "size-limit": "^7.0.3",
+    "ts-jest": "^27.0.3",
+    "typescript": "3.8.3"
+  },
+  "resolutions": {
+    "ansi-regex": "^5.0.1",
+    "glob-parent": "^5.1.2",
+    "minimist": "^1.2.6",
+    "postcss": "^7.0.36",
+    "trim": "^0.0.3"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "version": "0.0.24",
+  "packageManager": "yarn@3.2.0"
+}
